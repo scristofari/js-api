@@ -1,0 +1,26 @@
+{
+  "name": "api-js",
+  "version": "1.0.0",
+  "description": "Api de sondage",
+  "main": "index.js",
+  "author": "Sylvain Cristofari",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec test/*"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.1",
+    "validate.js": "^0.10.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "supertest": "^1.2.0"
+  }
+}
